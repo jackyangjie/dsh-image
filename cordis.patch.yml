@@ -1,0 +1,21 @@
+# Profile layer for dsh-agnes-image.
+- insert:
+    - id: agnes-image
+      name: dsh-agnes-image
+      config:
+        defaultProvider: agnes
+
+        # Image providers
+        agnesApiKey: sk-7I1WSjHRuFk9RfAR4Vk4fOEsOe9AVoj3TiriF5GGSZBnMzLz
+        openaiApiKey: ""
+        googleApiKey: ""
+        dashscopeApiKey: ""
+        zaiApiKey: 203735aabb2348b7bcafc33a8431d805.NbvNlHDlx35il4iL
+        replicateApiKey: ""
+
+        # Video providers
+        runwayApiKey: ""
+
+        # Timeouts
+        timeoutMs: 300000
+        videoTimeoutMs: 600000
